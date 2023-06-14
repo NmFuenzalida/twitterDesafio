@@ -1,0 +1,35 @@
+<%
+=begin%>
+ <div id="<%= dom_id campo %>">
+  <p>
+    <strong>Usuario:</strong>
+    <%= campo.userName %>
+  </p>
+
+  <p>
+    <strong>Descripcion:</strong>
+    <%= campo.description %>
+  </p>
+
+</div> 
+<%
+=end%>
+
+<div class="card "  id="<%= dom_id campo %>">
+  <div class="card-body">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+    <h6 class="card-subtitle mb-2 text-body-secondary fw-semibold">Usuario:</h6>
+    <br>
+    <h4 class="card-subtitle mb-2 text-primary">@ <%= campo.userName %></h4>
+    </li>
+    <br>
+    <li class="list-group-item">
+    <p class="card-text fw-light text-body-secondary fw-semibold">Descripción: </p>
+    <p> 
+    - <%= campo.description %>
+    </p> 
+    </li>
+  </ul>
+  </div>
+</div>

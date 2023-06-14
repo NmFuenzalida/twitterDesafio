@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @campo %>
+
+<div class="text-decoration-underline">
+  <%= link_to "Edita este campo", edit_campo_path(@campo) %> |
+  <%= link_to "Volver", campos_path %>
+
+  <%= button_to "Elminar post", @campo, method: :delete %>
+</div>
