@@ -6,5 +6,5 @@ generado con scaffold para el CRUD.
 Se creó la paginacion con pagy
 El buscador fue creado con Pg_search, fue difícil pero con el .find no me resultó.
 Se utilizó Bootstrap
-aplicando commits en github
+aplicando commits en github.
 
